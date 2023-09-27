@@ -1,8 +1,8 @@
-setup:
+s:
 	@rm -rf .git
 	@git init
 	@mkdir src bin include build lib
-build:
+b:
 	@cmake -S . -B build
-compile:
+c:
 	@make -C build
